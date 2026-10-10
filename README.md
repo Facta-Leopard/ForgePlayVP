@@ -1,6 +1,6 @@
 # ForgePlayVP
 
-Public privacy and support pages for the ForgePlay VR Vision Pro companion.
+Public privacy and support pages for the ForgePlayVP Vision Pro companion.
 
 Website: https://facta-leopard.github.io/ForgePlayVP/
 
