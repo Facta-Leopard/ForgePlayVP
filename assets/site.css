@@ -9,6 +9,16 @@
 @media(max-width:620px){.product-intro h1{font-size:clamp(2.15rem,8vw,3rem)}.product-intro .actions{gap:10px}.product-intro .button{font-size:.87rem}.game-proof{padding-top:34px}.hand-feature{grid-template-columns:1fr;padding:38px 0;gap:20px}.hand-feature figure{order:2}.hand-feature h2,.product-section>h2,.getting-started>h2{font-size:1.5rem}.input-modes,.feature-grid,.game-gallery{grid-template-columns:1fr}.input-modes{gap:12px}.feature-grid{gap:27px}.product-section{padding:30px 0}.getting-started{padding:24px}.wide-shot img,figure img{border-radius:12px}.game-proof .section-lead{font-size:.94rem}}
 @media print{header,.art,.language,.actions,.contact .button,footer,.legal aside{display:none}body{background:white;color:black}main{max-width:none;padding:0}.legal{display:block}.policy p,.lead{color:#222}.policy{max-width:none}.policy section{break-inside:avoid}a{color:black}}
 /* Native rounded headings echo ForgePlay's controls; Korean keeps whole words. */
+.language [data-system-language]{border-bottom:1px solid var(--line);font-weight:650}
+.language [aria-current=true],.legal aside [aria-current=true]{color:var(--accent);font-weight:700}
+[data-page="privacy"] header{position:sticky;top:0;z-index:30;background:var(--bg)}
+[data-page="privacy"] .legal aside{top:128px}
+.policy-language{scroll-margin-top:120px;padding-top:18px;margin-bottom:72px;min-width:0}
+.policy-language section{scroll-margin-top:120px}
+.policy-language>h2{font-size:clamp(1.6rem,3vw,2.3rem);display:block}
+.policy-language h3{font-size:1.15rem;line-height:1.5}
+.policy-language:focus-visible{outline:2px solid var(--accent);outline-offset:8px}
+@media(max-width:720px){.policy-language{margin-bottom:48px;scroll-margin-top:165px}.policy-language section{scroll-margin-top:165px}.legal aside nav{gap:0 12px}}
 :lang(ko) h1,:lang(ko) h2,:lang(ko) h3,:lang(ko) p,:lang(ko) summary{word-break:keep-all;overflow-wrap:break-word}
 .product-intro>div,.support-grid>section,.hand-feature>div{min-width:0}
 .compatibility{margin:24px 0 0;padding:20px 24px;border-left:4px solid var(--accent);background:var(--panel)}
